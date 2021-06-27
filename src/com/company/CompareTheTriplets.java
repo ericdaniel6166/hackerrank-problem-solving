@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CompareTheTriplets {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         List<Integer> a = new ArrayList<>();
         a.add(5);
         a.add(6);
@@ -16,6 +16,7 @@ public class CompareTheTriplets {
         b.add(10);
         System.out.println(compareTriplets(a, b));
     }
+
 
     private static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
         List<Integer> resultList = new ArrayList<>();

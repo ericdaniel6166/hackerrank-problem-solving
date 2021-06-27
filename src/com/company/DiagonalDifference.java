@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DiagonalDifference {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         List<Integer> ar0 = new ArrayList<>();
         ar0.add(11);
