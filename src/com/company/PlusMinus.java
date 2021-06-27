@@ -1,6 +1,5 @@
 package com.company;
 
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
@@ -15,8 +14,8 @@ public class PlusMinus {
         arr.add(0);
         arr.add(4);
         arr.add(1);
-//        plusMinus(arr);
-        plusMinus2(arr);
+        plusMinus(arr);
+//        plusMinus2(arr);
     }
 
     private static void plusMinus(List<Integer> arr) {
