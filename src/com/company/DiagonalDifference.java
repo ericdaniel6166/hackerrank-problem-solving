@@ -1,6 +1,5 @@
 package com.company;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,7 +36,7 @@ public class DiagonalDifference {
                 if (i == j) {
                     left += arr.get(i).get(j);
                 }
-                if (i+j == arr.size()-1 ){
+                if (i + j == arr.size() - 1) {
                     right += arr.get(i).get(j);
                 }
             }

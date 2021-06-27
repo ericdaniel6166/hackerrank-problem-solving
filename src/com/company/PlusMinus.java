@@ -31,9 +31,9 @@ public class PlusMinus {
                 zeroValue += 1;
             }
         }
-        double positiveValueProportion  = positiveValue / arr.size();
-        double negativeValueProportion  = negativeValue / arr.size();
-        double zeroValueProportion  = zeroValue / arr.size();
+        double positiveValueProportion = positiveValue / arr.size();
+        double negativeValueProportion = negativeValue / arr.size();
+        double zeroValueProportion = zeroValue / arr.size();
         System.out.println(BigDecimal.valueOf(positiveValueProportion).setScale(6, RoundingMode.HALF_UP));
         System.out.println(BigDecimal.valueOf(negativeValueProportion).setScale(6, RoundingMode.HALF_UP));
         System.out.println(BigDecimal.valueOf(zeroValueProportion).setScale(6, RoundingMode.HALF_UP));
@@ -52,9 +52,9 @@ public class PlusMinus {
                 zeroValue += 1;
             }
         }
-        double positiveValueProportion  = positiveValue / arr.size();
-        double negativeValueProportion  = negativeValue / arr.size();
-        double zeroValueProportion  = zeroValue / arr.size();
+        double positiveValueProportion = positiveValue / arr.size();
+        double negativeValueProportion = negativeValue / arr.size();
+        double zeroValueProportion = zeroValue / arr.size();
         System.out.format("%.6f", positiveValueProportion);
         System.out.println();
         System.out.format("%.6f", negativeValueProportion);

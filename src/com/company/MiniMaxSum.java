@@ -20,10 +20,10 @@ public class MiniMaxSum {
         long sum = min;
         for (int i = 1; i < arr.size(); i++) {
             sum += arr.get(i);
-            if (min > arr.get(i)){
+            if (min > arr.get(i)) {
                 min = arr.get(i);
             }
-            if (max < arr.get(i)){
+            if (max < arr.get(i)) {
                 max = arr.get(i);
             }
         }
