@@ -1,11 +1,10 @@
 package com.company;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class AVeryBigSum {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         List<Long> ar = new ArrayList<>();
         ar.add(1000000001L);
         ar.add(1000000002L);

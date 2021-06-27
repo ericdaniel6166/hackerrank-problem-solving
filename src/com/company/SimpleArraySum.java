@@ -1,11 +1,10 @@
 package com.company;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class SimpleArraySum {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         List<Integer> integerList = new ArrayList<>();
         integerList.add(1);
         integerList.add(2);

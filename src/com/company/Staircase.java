@@ -1,10 +1,8 @@
 package com.company;
 
 
-import java.io.IOException;
-
 public class Staircase {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         staircase(4);
     }
 
